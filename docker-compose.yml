@@ -1,0 +1,19 @@
+services:
+  mysql:
+    image: mysql:8
+    container_name: antybien_retroplay_mysql
+    restart: unless-stopped
+    environment:
+      MYSQL_ROOT_PASSWORD: "retroplay_root_pass"
+      MYSQL_DATABASE: retroplay
+      MYSQL_USER: retroplay
+      MYSQL_PASSWORD: "retroplay_pass"
+    ports:
+      - "3309:3306"
+    volumes:
+      - antybien_retroplay_mysql_datos:/var/lib/mysql
+      - ./base_de_datos:/docker-entrypoint-initdb.d
+
+volumes:
+  antybien_retroplay_mysql_datos:
+    name: antybien_retroplay_mysql_datos
