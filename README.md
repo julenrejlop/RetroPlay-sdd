@@ -67,11 +67,12 @@ Acceso en el navegador: **`http://localhost:5174`**
 
 ---
 
-## 📚 Documentación del Proyecto (SDD)
+## 📚 Documentación del Proyecto (SDD en `sddDocs/`)
 
-- **[spec.md](spec.md):** Especificación funcional y requisitos de producto.
-- **[plan.md](plan.md):** Plan técnico, arquitectura y esquema de base de datos.
-- **[tasks.md](tasks.md):** Registro de las 10 tareas completadas con criterios de aceptación.
-- **[AGENTS.md](AGENTS.md):** Reglas operativas para agentes de desarrollo.
-- **[CONTEXTO_RETROPLAY.md](CONTEXTO_RETROPLAY.md):** Documento de contexto integral para Inteligencias Artificiales y colaboradores.
-- **[RETROPLAY_CONTEXTO_Y_DISENO.md](RETROPLAY_CONTEXTO_Y_DISENO.md):** Visión conceptual y decisiones de diseño UX/UI.
+Toda la documentación metodológica se encuentra centralizada en la carpeta [`sddDocs/`](sddDocs/):
+- **[sddDocs/spec.md](sddDocs/spec.md):** Especificación funcional y requisitos de producto.
+- **[sddDocs/plan.md](sddDocs/plan.md):** Plan técnico, arquitectura y esquema de base de datos.
+- **[sddDocs/tasks.md](sddDocs/tasks.md):** Registro de las 10 tareas completadas con criterios de aceptación.
+- **[sddDocs/AGENTS.md](sddDocs/AGENTS.md):** Reglas operativas para agentes de desarrollo.
+- **[sddDocs/CONTEXTO_RETROPLAY.md](sddDocs/CONTEXTO_RETROPLAY.md):** Documento de contexto integral para Inteligencias Artificiales y colaboradores.
+- **[sddDocs/RETROPLAY_CONTEXTO_Y_DISENO.md](sddDocs/RETROPLAY_CONTEXTO_Y_DISENO.md):** Visión conceptual y decisiones de diseño UX/UI.
